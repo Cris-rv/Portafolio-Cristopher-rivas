@@ -12,6 +12,13 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'public/build', // Esto coloca los archivos generados en public_html/public/build
-    }
+        outDir: 'public/build', // Carpeta donde se guardan los archivos generados
+        manifest: true, // Habilitar la creación del archivo manifest.json
+        rollupOptions: {
+            input: [
+                'resources/css/app.css',
+                'resources/js/app.js',
+            ],
+        },
+    },
 });
