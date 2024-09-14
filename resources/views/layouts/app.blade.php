@@ -15,8 +15,8 @@
 
         <!-- Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
-        {{-- @vite(['resources/css/app.css', 'resources/js/app.js'])
-        @stack('styles') --}}
+        @vite(['resources/css/app.css'])
+        @stack('styles')
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600 opacity-100 z-0 
