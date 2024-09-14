@@ -1,0 +1,1 @@
+<div data-aos="fade-right" class="md:col-span-4 mb-10 border rounded-xl border-slate-500 p-5 dark:text-white">
