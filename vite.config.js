@@ -11,4 +11,7 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'public/build', // Esto coloca los archivos generados en public_html/public/build
+    }
 });
