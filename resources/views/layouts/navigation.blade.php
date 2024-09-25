@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }" class="bg-slate-700 dark:bg-gray-800 border-b border-gray-400 dark:border-gray-700 text-white">
+<nav x-data="{ open: false }" class="bg-slate-800 dark:bg-gray-800 border-b border-gray-400 dark:border-gray-700 text-white">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
@@ -80,7 +80,7 @@
                                 {{ __('Font End Store') }}
                             </x-responsive-nav-link>
                             <x-responsive-nav-link href="https://blog-de-cafe-cristopher-rivas.netlify.app">
-                                {{ __('Blog de Cafe') }}
+                                {{ __('Blog De Cafe') }}
                             </x-responsive-nav-link>
                             <x-responsive-nav-link href="https://guyziti.nyc.dom.my.id/login">
                                 {{ __('Devstagram') }}

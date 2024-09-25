@@ -55,7 +55,7 @@
             </div>
     </section>
 
-    <div class="px-5 md:px-32 py-5 mt-10">
+    <div class="px-5 md:px-32 py-5 mt-10 text-center">
         <div>
             <h3 data-aos="fade-rifght" class="text-center md:text-start font-bold text-3xl  text-white mx-3">
                 Informacion sobre proyectos
