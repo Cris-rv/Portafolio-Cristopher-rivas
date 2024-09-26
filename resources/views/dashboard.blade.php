@@ -55,7 +55,7 @@
             </div>
     </section>
 
-    <div class="px-5 md:px-32 py-5 mt-10 text-center">
+    <div class="px-5 md:px-32 py-5 mt-10">
         <div>
             <h3 data-aos="fade-rifght" class="text-center md:text-start font-bold text-3xl  text-white mx-3">
                 Informacion sobre proyectos
@@ -91,6 +91,16 @@
                 <h2 class="text-2xl font-bold mb-5">Blog De Cafe</h2>
     
                 <p class="text-justify">El blog de cafe esta enfocado en mejorar lo ya antes visto tanto en html como en css, con una estructura mas completa y con informacion, pero sobre todo un estilo más limpio, ordenado y sobre todo amigable sin perder lo mas importante que es el contenido ya que este esta conformado por datos sobre el blog, los cursos que se impartiran y el contacto.</p>
+            </div>
+
+            <div data-aos="fade-left" class="md:col-span-4 mb-10 border rounded-xl border-slate-500 p-5 dark:text-white">
+                <h2 class="text-2xl font-bold mb-5">Front end Store</h2>
+    
+                <p class="text-justify">Front End Store es una pagina que esta orientada en un uso mas presente de css, más preciso en el uso de grid para realizar columnas y filas de una manera más controlada y esta conformada por cada producto de la tienda como tambien informacion sobre nosotros y precios de cada producto.</p>
+            </div>
+
+            <div data-aos="fade-left" class="md:col-span-2 mb-10 dark:text-white">
+                <img class="rounded-2xl" src="/img/Proyectos/FrontEndStore.png" alt="{{'Imagen Ejemplo' }}">
             </div>
 
             <div class="md:col-span-2 mb-10 dark:text-white">
