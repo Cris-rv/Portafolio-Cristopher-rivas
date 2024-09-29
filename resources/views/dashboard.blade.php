@@ -7,7 +7,7 @@
                 <div class="flex-col text-center p-5 md:px-44 py-5 text-white">
                     <h2 class="text-2xl font-bold mb-5">Sobre Mi</h2>
         
-                    <p class="text-justify md:text-xl">He adquirido experiencia en programación de forma independiente, aprendiendo y aplicando diversas tecnologías en cada proyecto. Me apasiona el desarrollo backend, en el cual me desenvuelvo bien y sigo perfeccionando mis habilidades, con el objetivo de dominar esta área en el futuro cercano.</p>
+                    <p class="md:text-xl text-center">He adquirido experiencia en programación de forma independiente, aprendiendo y aplicando diversas tecnologías en cada proyecto. Me apasiona el desarrollo backend, en el cual me desenvuelvo bien y sigo perfeccionando mis habilidades, con el objetivo de dominar esta área en el futuro cercano.</p>
                 </div>
     </div>
 
@@ -55,7 +55,7 @@
             </div>
     </section>
 
-    <div class="px-5 md:px-32 py-5 mt-10">
+    <div class="px-5 md:px-32 py-5 mt-10 ">
         <div>
             <h3 data-aos="fade-rifght" class="text-center md:text-start font-bold text-3xl  text-white mx-3">
                 Informacion sobre proyectos
@@ -63,54 +63,94 @@
         <div data-aos="fade-right" class="md:grid md:grid-cols-6 gap-5 my-10 items-center hidden">
 
             <div data-aos="fade-right" class="md:col-span-2 mb-10 dark:text-white rounded-xl">
-                <img class="rounded-2xl" src="/img/Proyectos/DevJobs.png" alt="{{'Imagen Ejemplo' }}">
+                <a href="https://github.com/Cris-rv/Devjobs"">
+                    <img               
+                        class="rounded-2xl" 
+                        src="/img/Proyectos/DevJobs.png" 
+                        alt="{{'Imagen Ejemplo' }}"
+                    >
+                </a>
             </div>
     
             <div data-aos="fade-right" class="md:col-span-4 mb-10 border rounded-xl border-slate-500 p-5 dark:text-white">
-                <h2 class="text-2xl font-bold mb-5">DevJobs</h2>
-    
-                <p class="text-justify">DevJobs implementa un sistema de registro de usuarios más completo que devstagram ya que utiliza Laravel Breeze. Los puntos fuertes de la pagina son sus roles tanto para reclutador como tambien programador y aqui el uso de modelos y base de datos es más amplio a comparacion del proyecto anterior como tambien posee una autenticacion via Email y cuenta con una barra de busqueda mediante filtros para buscar vacantes más especificas a lo que cada usuario desee.</p>
+                <a href="https://github.com/Cris-rv/Devjobs"">
+                    <h2 class="text-2xl font-bold mb-5">DevJobs</h2>
+                
+                    <p class="text-justify">DevJobs implementa un sistema de registro de usuarios más completo que devstagram ya que utiliza Laravel Breeze. Los puntos fuertes de la pagina son sus roles tanto para reclutador como tambien programador y aqui el uso de modelos y base de datos es más amplio a comparacion del proyecto anterior como tambien posee una autenticacion via Email y cuenta con una barra de busqueda mediante filtros para buscar vacantes más especificas a lo que cada usuario desee.</p>
+                </a>
             </div>
 
             <div data-aos="fade-left" class="md:col-span-4 mb-10 border rounded-xl border-slate-500 p-5 dark:text-white">
-                <h2 class="text-2xl font-bold mb-5">Devstagram</h2>
+                <a href="https://guyziti.nyc.dom.my.id/login">
+                    <h2 class="text-2xl font-bold mb-5">Devstagram</h2>
     
-                <p class="text-justify">Sobre devstagram hay que recalcar que pricipalmente esta enfocado en backend ya que tiene un registro de usuarios, creacion de cuentas y almacenar datos e imagenes de usuarios ya que es un clon de instagram. Esta pagina cuenta con las caracteristicas principales de instagram que son: publicacion de imagenes, seguidoes, comentarios y likes en tiempo real a la publicaciones y en la parte de backend resalta el uso de modelos y relaciones entre estas para realizar estas funciones.</p>
+                    <p class="text-justify">Sobre devstagram hay que recalcar que pricipalmente esta enfocado en backend ya que tiene un registro de usuarios, creacion de cuentas y almacenar datos e imagenes de usuarios ya que es un clon de instagram. Esta pagina cuenta con las caracteristicas principales de instagram que son: publicacion de imagenes, seguidoes, comentarios y likes en tiempo real a la publicaciones y en la parte de backend resalta el uso de modelos y relaciones entre estas para realizar estas funciones.</p>
+                </a>
             </div>
 
             <div data-aos="fade-left" class="md:col-span-2 mb-10 dark:text-white">
-                <img class="rounded-2xl" src="/img/Proyectos/Devstagram.png" alt="{{'Imagen Ejemplo' }}">
+                <a href="https://guyziti.nyc.dom.my.id/login">
+                    <img 
+                        class="rounded-2xl" 
+                        src="/img/Proyectos/Devstagram.png" 
+                        alt="{{'Imagen Ejemplo' }}"
+                    >
+                </a>
             </div>
 
 
             <div data-aos="fade-right" class="md:col-span-2 mb-10 dark:text-white rounded-xl">
-                <img class="rounded-2xl" src="/img/Proyectos/BlogDeCafe.png" alt="{{'Imagen Ejemplo' }}">
+                <a href="https://blog-de-cafe-cristopher-rivas.netlify.app/">
+                    <img 
+                        class="rounded-2xl" 
+                        src="/img/Proyectos/BlogDeCafe.png" 
+                        alt="{{'Imagen Ejemplo' }}"
+                    >
+                </a>
             </div>
     
             <div data-aos="fade-right" class="md:col-span-4 mb-10 border rounded-xl border-slate-500 p-5 dark:text-white">
-                <h2 class="text-2xl font-bold mb-5">Blog De Cafe</h2>
+                <a href="https://blog-de-cafe-cristopher-rivas.netlify.app/">
+                    <h2 class="text-2xl font-bold mb-5">Blog De Cafe</h2>
     
-                <p class="text-justify">El blog de cafe esta enfocado en mejorar lo ya antes visto tanto en html como en css, con una estructura mas completa y con informacion, pero sobre todo un estilo más limpio, ordenado y sobre todo amigable sin perder lo mas importante que es el contenido ya que este esta conformado por datos sobre el blog, los cursos que se impartiran y el contacto.</p>
+                    <p class="text-justify">El blog de cafe esta enfocado en mejorar lo ya antes visto tanto en html como en css, con una estructura mas completa y con informacion, pero sobre todo un estilo más limpio, ordenado y sobre todo amigable sin perder lo mas importante que es el contenido ya que este esta conformado por datos sobre el blog, los cursos que se impartiran y el contacto.</p>
+                </a>
             </div>
 
             <div data-aos="fade-left" class="md:col-span-4 mb-10 border rounded-xl border-slate-500 p-5 dark:text-white">
-                <h2 class="text-2xl font-bold mb-5">Front end Store</h2>
+                <a href="https://segundoproyecto-cristpherrivas.netlify.app/">
+                    <h2 class="text-2xl font-bold mb-5">Front end Store</h2>
     
-                <p class="text-justify">Front End Store es una pagina que esta orientada en un uso mas presente de css, más preciso en el uso de grid para realizar columnas y filas de una manera más controlada y esta conformada por cada producto de la tienda como tambien informacion sobre nosotros y precios de cada producto.</p>
+                    <p class="text-justify">Front End Store es una pagina que esta orientada en un uso mas presente de css, más preciso en el uso de grid para realizar columnas y filas de una manera más controlada y esta conformada por cada producto de la tienda como tambien informacion sobre nosotros y precios de cada producto.</p>
+                </a>
             </div>
 
             <div data-aos="fade-left" class="md:col-span-2 mb-10 dark:text-white">
-                <img class="rounded-2xl" src="/img/Proyectos/FrontEndStore.png" alt="{{'Imagen Ejemplo' }}">
+                <a href="https://segundoproyecto-cristpherrivas.netlify.app/">
+                    <img 
+                        class="rounded-2xl" 
+                        src="/img/Proyectos/FrontEndStore.png" 
+                        alt="{{'Imagen Ejemplo' }}"
+                    >
+                </a>
             </div>
 
             <div class="md:col-span-2 mb-10 dark:text-white">
-                <img class="rounded-2xl" src="/img/Proyectos/PrimerProyecto.png" alt="{{'Imagen Ejemplo' }}">
+                <a href="https://primerproyecto-cristopherrivas.netlify.app/">
+                    <img 
+                        class="rounded-2xl" 
+                        src="/img/Proyectos/PrimerProyecto.png" 
+                        alt="{{'Imagen Ejemplo' }}"
+                    >
+                </a>
             </div>
     
             <div data-aos="fade-right" class="md:col-span-4 mb-10 border rounded-xl border-slate-500 p-5 dark:text-white">
-                <h2 class="text-2xl font-bold mb-5">Primer Proyecto</h2>
+                <a href="https://primerproyecto-cristopherrivas.netlify.app/">
+                    <h2 class="text-2xl font-bold mb-5">Primer Proyecto</h2>
     
-                <p class="text-justify">Este proyecto esta enfocado en el uso basico de html como css. La pagina consiste en una estructura simple y facil de entender para el usuario ya que esta formada por: Inicio, informacion sobre mi, clientes y contactos en la parte superior una vez demos scroll veremos informacion sobre diseño, aplicaciones y E-Comerce como tambien un formulario de contacto.</p>
+                    <p class="text-justify">Este proyecto esta enfocado en el uso basico de html como css. La pagina consiste en una estructura simple y facil de entender para el usuario ya que esta formada por: Inicio, informacion sobre mi, clientes y contactos en la parte superior una vez demos scroll veremos informacion sobre diseño, aplicaciones y E-Comerce como tambien un formulario de contacto.</p>
+                </a>
             </div>
 
         </div>
@@ -118,11 +158,14 @@
 
     <!-- Contenido responsive -->
 
-    <div class="md:hidden flex">
+    <div class="md:hidden">
         <div class="md:grid md:grid-cols-6 mt-5 divide-y-">
 
             <div data-aos="fade-right" class="md:col-span-3 mb-10 px-16 text-white rounded-xl">
-                <img src="/img/Proyectos/DevJobs.png" alt="{{'Imagen Ejemplo' }}">
+                <img 
+                    src="/img/Proyectos/DevJobs.png" 
+                    alt="{{'Imagen Ejemplo' }}"
+                >
             </div>
     
             <div data-aos="fade-right" class="md:col-span-3 mb-10 border-b-4 text-white">
@@ -132,7 +175,10 @@
             </div>
 
             <div data-aos="fade-left" class="md:col-span-3 mb-10 px-16 text-white rounded-xl">
-                <img src="/img/Proyectos/Devstagram.png" alt="{{'Imagen Ejemplo' }}">
+                <img 
+                    src="/img/Proyectos/Devstagram.png" 
+                    alt="{{'Imagen Ejemplo' }}"
+                >
             </div>
     
             <div data-aos="fade-left" class="md:col-span-3 mb-10 border-b-4 text-white">
@@ -142,7 +188,10 @@
             </div>
             
             <div data-aos="fade-right" class="md:col-span-3 mb-10 px-16 text-white">
-                <img src="/img/Proyectos/BlogDeCafe.png" alt="{{'Imagen Ejemplo' }}">
+                <img 
+                    src="/img/Proyectos/BlogDeCafe.png" 
+                    alt="{{'Imagen Ejemplo' }}"
+                >
             </div>
     
             <div data-aos="fade-right" class="md:col-span-3 mb-10 border-b-4 text-white">
@@ -152,7 +201,10 @@
             </div>
 
             <div data-aos="fade-left" class="md:col-span-3 mb-10 px-16 text-white rounded-xl">
-                <img src="/img/Proyectos/FrontEndStore.png" alt="{{'Imagen Ejemplo' }}">
+                <img 
+                    src="/img/Proyectos/FrontEndStore.png" 
+                    alt="{{'Imagen Ejemplo' }}"
+                >
             </div>
     
             <div data-aos="fade-left" class="md:col-span-3 mb-10 border-b-4 text-white"> 
@@ -162,7 +214,10 @@
             </div>
 
             <div data-aos="fade-right" class="md:col-span-3 mb-10 px-16 text-white rounded-xl">
-                <img src="/img/Proyectos/PrimerProyecto.png" alt="{{'Imagen Ejemplo' }}">
+                <img 
+                    src="/img/Proyectos/PrimerProyecto.png" 
+                    alt="{{'Imagen Ejemplo' }}"
+                >
             </div>
     
             <div data-aos="fade-right" class="md:col-span-3 mb-10 border-b-4 text-white"> 

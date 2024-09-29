@@ -1,52 +1,12 @@
 <nav x-data="{ open: false }" class="bg-slate-800 dark:bg-gray-800 border-b border-gray-400 dark:border-gray-700 text-white">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16">
+        <div class="flex justify-between items-center md:justify-center h-16">
             <div class="flex">
-                <!-- Logo -->
-                <div class="shrink-0 flex items-center">
-                    <a href="{{ route('dashboard') }}">
-                        <x-application-logo class="block h-9 w-auto fill-current text-white dark:text-gray-200" />
-                    </a>
-                </div>
-
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <div class="hidden sm:flex sm:justify-center sm:items-center text-center">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Bienvenidos') }}
-                    </x-nav-link>
-                </div>
-            </div>
-
-            <!-- barra de navegacion principal -->
-            <div class="hidden sm:flex sm:items-center sm:ml-6">
-                <div class="p-2">
-                    <x-nav-link href="https://primerproyecto-cristopherrivas.netlify.app">
-                        {{ __('Primer Proyecto') }}
-                    </x-nav-link>
-                </div>
-
-                <div class="p-2">
-                    <x-nav-link href="https://segundoproyecto-cristpherrivas.netlify.app">
-                        {{ __('Front End Store') }}
-                    </x-nav-link>
-                </div>
-
-                <div class="p-2">
-                    <x-nav-link href="https://blog-de-cafe-cristopher-rivas.netlify.app">
-                        {{ __('Blog de Cafe') }}
-                    </x-nav-link>
-                </div>
-
-                <div class="p-2">
-                    <x-nav-link href="https://guyziti.nyc.dom.my.id/login">
-                        {{ __('Devstagram') }}
-                    </x-nav-link>
-                </div>
-
-                <div class="p-2">
-                    <x-nav-link href="https://github.com/Cris-rv/Devjobs">
-                        {{ __('DevJobs') }}
+                        {{ __('Bienvenido') }}
                     </x-nav-link>
                 </div>
             </div>
@@ -73,20 +33,20 @@
                     <!-- Panel desplegable -->
                      <div :class="{'block': open, 'hidden': !open}" class="sm:hidden hidden mt-48 bg-slate-800 border border-gray-200 rounded-md shadow-lg dark:bg-gray-800 dark:border-gray-600">
                         <div class="mt-3 space-y-1">
-                            <x-responsive-nav-link href="https://primerproyecto-cristopherrivas.netlify.app">
-                                {{ __('Primer Proyecto') }}
-                            </x-responsive-nav-link>
-                            <x-responsive-nav-link href="https://segundoproyecto-cristpherrivas.netlify.app">
-                                {{ __('Font End Store') }}
-                            </x-responsive-nav-link>
-                            <x-responsive-nav-link href="https://blog-de-cafe-cristopher-rivas.netlify.app">
-                                {{ __('Blog De Cafe') }}
+                            <x-responsive-nav-link href="https://github.com/Cris-rv/Devjobs">
+                                {{ __('DevJobs') }}
                             </x-responsive-nav-link>
                             <x-responsive-nav-link href="https://guyziti.nyc.dom.my.id/login">
                                 {{ __('Devstagram') }}
                             </x-responsive-nav-link>
-                            <x-responsive-nav-link href="https://github.com/Cris-rv/Devjobs">
-                                {{ __('DevJobs') }}
+                            <x-responsive-nav-link href="https://blog-de-cafe-cristopher-rivas.netlify.app">
+                                {{ __('Blog De Cafe') }}
+                            </x-responsive-nav-link>
+                            <x-responsive-nav-link href="https://segundoproyecto-cristpherrivas.netlify.app">
+                                {{ __('Font End Store') }}
+                            </x-responsive-nav-link>
+                            <x-responsive-nav-link href="https://primerproyecto-cristopherrivas.netlify.app">
+                                {{ __('Primer Proyecto') }}
                             </x-responsive-nav-link>
                             <x-responsive-nav-link class="text-sm text-center" :href="route('dashboard')">
                                 {{ __('Salir') }}
@@ -95,7 +55,6 @@
                     </div>
             </div>
             </div>
-        </div>
     </div>
     
 </nav>
