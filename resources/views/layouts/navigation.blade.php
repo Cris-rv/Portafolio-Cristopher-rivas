@@ -1,25 +1,41 @@
-<nav x-data="{ open: false }" class="bg-slate-800 dark:bg-gray-800 border-b border-gray-400 dark:border-gray-700 text-white">
+<nav x-data="{ open: false }" class="fixed top-0 left-0 w-full bg-slate-800 dark:bg-gray-800 border-b border-gray-400 dark:border-gray-700 text-white z-50 md:px-24">
     <!-- Primary Navigation Menu -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between items-center md:justify-center h-16">
-            <div class="flex">
-                <!-- Navigation Links -->
+    <div class=" max-w-120rem mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16 w-full">
+                <!-- Navigation Links --> 
                 <div class="hidden sm:flex sm:justify-center sm:items-center text-center">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Bienvenido') }}
                     </x-nav-link>
                 </div>
+
+                <div class="hidden md:flex gap-6">
+                    <x-nav-link href="#sobre-mi">
+                        Sobre mi
+                    </x-nav-link>
+
+                    <x-nav-link href="#Tecnologias">
+                        {{ __('Tecnologias') }}
+                    </x-nav-link>
+
+                    <x-nav-link href="#proyectos">
+                        {{ __('Proyectos') }}
+                    </x-nav-link>
+
+                    <x-nav-link href="#contactos">
+                        {{ __('Contacto') }}
+                    </x-nav-link>
             </div>
 
             <!-- Responsive Bienvenidos -->
-            <div class="flex items-center sm:hidden">
+            <div class="flex justify-between sm:hidden">
                 <x-responsive-nav-link :href="route('dashboard')" >
                     {{ __('Bienvenido') }}
                 </x-responsive-nav-link>
             </div>
 
             <!-- Hamburger -->
-            <div class="-mr-2 flex items-center sm:hidden">
+            <div class="mr-2 flex items-center sm:hidden">
                 <!-- Responsive Navigation Menu -->
             <div x-data="{ open: false }" class="relative">
             <!-- Botón para abrir/cerrar el panel -->
@@ -33,20 +49,17 @@
                     <!-- Panel desplegable -->
                      <div :class="{'block': open, 'hidden': !open}" class="sm:hidden hidden mt-48 bg-slate-800 border border-gray-200 rounded-md shadow-lg dark:bg-gray-800 dark:border-gray-600">
                         <div class="mt-3 space-y-1">
-                            <x-responsive-nav-link href="https://github.com/Cris-rv/Devjobs">
-                                {{ __('DevJobs') }}
+                            <x-responsive-nav-link href="#sobre-mi">
+                                {{ __('Sobre mi') }}
                             </x-responsive-nav-link>
-                            <x-responsive-nav-link href="https://guyziti.nyc.dom.my.id/login">
-                                {{ __('Devstagram') }}
+                            <x-responsive-nav-link href="#Tecnologias">
+                                {{ __('Tecnologias') }}
                             </x-responsive-nav-link>
-                            <x-responsive-nav-link href="https://blog-de-cafe-cristopher-rivas.netlify.app">
-                                {{ __('Blog De Cafe') }}
+                            <x-responsive-nav-link href="#proyectos">
+                                {{ __('Proyectos') }}
                             </x-responsive-nav-link>
-                            <x-responsive-nav-link href="https://segundoproyecto-cristpherrivas.netlify.app">
-                                {{ __('Font End Store') }}
-                            </x-responsive-nav-link>
-                            <x-responsive-nav-link href="https://primerproyecto-cristopherrivas.netlify.app">
-                                {{ __('Primer Proyecto') }}
+                            <x-responsive-nav-link href="#contactos">
+                                {{ __('Contactos') }}
                             </x-responsive-nav-link>
                             <x-responsive-nav-link class="text-sm text-center" :href="route('dashboard')">
                                 {{ __('Salir') }}
