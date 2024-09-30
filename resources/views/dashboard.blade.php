@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div id="sobre-mi" class="flex flex-col justify-center md:flex-row md:justify-between items-center md:px-44 mt-16 pt-24 xl:px-96">
+    <div id="sobre-mi" class="flex flex-col justify-center md:flex-row md:justify-between items-center md:px-44 mt-16 pt-24">
                 <div class="mb-10 dark:text-white">
                     <img 
                         class="rounded-lg w-72 h-72" 
